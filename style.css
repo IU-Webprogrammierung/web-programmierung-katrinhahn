@@ -4,6 +4,36 @@ body {
     padding: 10%;
 }
 
+.navbar {
+    display: flex;
+    width: auto;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    padding: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
 
 .hero {
     display: flex;
@@ -29,7 +59,7 @@ body {
 }
 
 .hero-image {
-    max-width: 40%;
+    max-width: 45%;
 }
 
 .hero-image img { 
