@@ -58,17 +58,30 @@ body {
 }
 
 .navbar {
+    overflow: hidden;
+    position: fixed;
     display: flex;
-    width: auto;
-    justify-content: space-between;
-    align-items: flex-start;
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin-bottom: 80px;
-    margin-top: 24px;
+    top: 0;
     background-color: black;
 }
-.navbar-position{
-    position: fixed;
+
+.navbar a {
+    float: light;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.navbar a:hover {
+    color: #413EFF;
 }
+
 .logo img {
     height: 30px;
 }
@@ -76,18 +89,7 @@ body {
 .nav-links {
     display: flex;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links li {
-    padding: 0 10px;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
+    margin-left: auto;
 }
 
 
@@ -129,7 +131,7 @@ body {
 
 .hero {
     display: flex;
-    padding-top: 20%;
+    padding-top: 40%;
     justify-content: space-between;
     align-items: center;
     height: 100px;
