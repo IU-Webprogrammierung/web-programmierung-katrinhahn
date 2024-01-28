@@ -59,7 +59,6 @@ body {
 .navbar {
     display: flex;
     width: auto;
-    padding: 24px;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 80px;
@@ -99,6 +98,7 @@ body {
     width: 250px;
     margin-top: 24px;
   }
+  
 .button:hover {
     background-color: #2f2cd8;
     border-color: #2f2cd8;
@@ -209,4 +209,8 @@ body {
 .projekte-image img { 
     width: 100%;
     height: auto;
+}
+
+.kontakt {
+    padding-top: 160px;
 }
