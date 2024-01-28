@@ -180,3 +180,30 @@ body {
 .projekte {
     padding-top: 120px;
 }
+
+.projekte-all-cards {
+    display: flex;
+    flex-wrap:wrap; 
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.projekte-card {
+    max-width: 350px;
+    min-width: 250px;
+    padding-right: 24px;
+}
+
+.projekte-card-text {
+    display: flexbox;
+}
+
+.projekte-image {
+    height: auto;
+}
+
+.projekte-image img { 
+    width: 100%;
+    height: auto;
+}
