@@ -46,7 +46,10 @@ p.large {
     color: #FBFF48;
     text-transform: uppercase;
   }
-
+a {
+    color: #fff;
+    text-decoration: none;
+}
 body {
     background-color: rgb(0, 0, 0);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -139,7 +142,7 @@ body {
 }
 
 .leistungen {
-    padding-top: 120px;
+    padding-top: 160px;
 }
 
 .section-titel {
@@ -178,7 +181,7 @@ body {
 }
 
 .projekte {
-    padding-top: 120px;
+    padding-top: 160px;
 }
 
 .projekte-all-cards {
