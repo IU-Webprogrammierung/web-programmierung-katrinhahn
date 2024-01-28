@@ -35,7 +35,7 @@ p.large {
  }
 
  p {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 150%;
     color: #fff;
   }
@@ -136,4 +136,33 @@ body {
     flex-direction: column;
     width: auto;
     align-items: flex-start;
+}
+
+.leistungen {
+    padding-top: 120px;
+}
+
+.section-titel {
+    max-width: 75%;
+}
+
+.leistungen-all-cards {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between
+}
+
+
+.leistungen-image {
+    max-width: 75%;
+    min-width: 50%;
+}
+
+.leistungen-image img { 
+    width: 100%;
+    height: auto;
+}
+
+.leistungen-icon {
+    height: fit-content;
 }
