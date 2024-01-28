@@ -151,13 +151,13 @@ body {
     flex-wrap:wrap; 
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 32px;
 }
 
 .leistungen-card {
     max-width: 350px;
     min-width: 250px;
-    padding: 24px;
+    padding-right: 24px;
 }
 
 .leistungen-card-text {
@@ -173,6 +173,10 @@ body {
     height: auto;
 }
 
-.leistungen-icon {
+.link-icon {
     position: absolute;
+}
+
+.projekte {
+    padding-top: 120px;
 }
