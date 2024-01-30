@@ -40,6 +40,12 @@ p.large {
     color: #fff;
   }
 
+  p.small {
+    font-size: 15px;
+    line-height: 150%;
+    color: #fff;
+  }
+
   p.caption {
     font-size: 16px;
     line-height: 150%;
