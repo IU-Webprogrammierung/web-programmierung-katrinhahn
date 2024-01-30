@@ -61,6 +61,13 @@ p.large {
     color: #fff;
   }
 
+  p.small-light {
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+
   p.caption {
     font-size: 16px;
     line-height: 150%;
@@ -374,4 +381,12 @@ input {
 .kontakt-input {
     align-content: center;
     padding-top: auto;
+}
+
+.footer {
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
