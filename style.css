@@ -40,6 +40,21 @@ p.large {
     color: #fff;
   }
 
+  p.bold {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  p.light {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 100;
+    color: #fff;
+  }
+
+
   p.small {
     font-size: 15px;
     line-height: 150%;
@@ -258,23 +273,46 @@ body {
     height: auto;
 }
 
+.skills {
+    padding-top: 160px;
+}
+
+.skill-card-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    width: 100%;
+}
+
+.skill-card {
+    display: flex;
+    padding: 24px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.skill-card img {
+    display: flex;
+    width: auto;
+    height: 50px;
+}
+
+
 .projekte {
     padding-top: 160px;
 }
 
 .projekte-all-cards {
     display: flex;
-    flex-wrap: wrap; 
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 32px;
-    margin: 12px;
 }
 
 .projekte-card {
     max-width: 350px;
     min-width: 250px;
-    padding-right: 24px;
 }
 
 .leistungen-card-text {
