@@ -166,8 +166,12 @@ body {
     align-items: flex-start;
 }
 
-.leistungen {
+.leistungen-index {
     padding-top: 160px;
+}
+
+.leistungen-über-mich {
+    padding-top: 20px;
 }
 
 .section-titel {
@@ -189,7 +193,7 @@ body {
 }
 
 .leistungen-card-text {
-    display: flexbox;
+    display: block;
 }
 
 .leistungen-image {
@@ -201,20 +205,17 @@ body {
     height: auto;
 }
 
-.link-icon {
-    position: absolute;
-}
-
 .projekte {
     padding-top: 160px;
 }
 
 .projekte-all-cards {
     display: flex;
-    flex-wrap:wrap; 
+    flex-wrap: wrap; 
     flex-direction: row;
     justify-content: space-between;
     padding-top: 32px;
+    margin: 12px;
 }
 
 .projekte-card {
@@ -223,8 +224,9 @@ body {
     padding-right: 24px;
 }
 
-.projekte-card-text {
-    display: flexbox;
+.leistungen-card-text {
+    display: flex;
+    justify-content: left;
 }
 
 .projekte-image {
