@@ -61,12 +61,12 @@ body {
     overflow: hidden;
     position: fixed;
     display: flex;
-    width: 100%;
+    width: 80%;
     padding-top: 24px;
     padding-bottom: 24px;
     margin-bottom: 80px;
     top: 0;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .navbar a {
