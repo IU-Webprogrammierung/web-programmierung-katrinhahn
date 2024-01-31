@@ -28,6 +28,13 @@ p.large {
     color: #fff;
   }
 
+  p.large-bold {
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 700;
+    color: #fff;
+  }
+
  p.button {
     font-size: 18px;
     font-weight: 500;
@@ -60,6 +67,7 @@ p.large {
     font-size: 15px;
     line-height: 150%;
     color: #fff;
+    letter-spacing: 1px;
   }
 
   p.small-light {
@@ -127,6 +135,21 @@ body {
 
 .nav-links {
     display: flex;
+}
+
+.link-icon {
+    display: inline-flex;
+    align-items: center;
+}
+
+.link-icon img {
+    height: 35px;
+    width: 35px;
+}
+
+.link-icon p {
+    margin: 0;
+    padding-right: 12px;
 }
 
 
@@ -231,7 +254,7 @@ body {
 }
 
 .leistungen-über-mich {
-    padding-top: 20px;
+    padding-top: 20;
 }
 
 .section-titel {
@@ -393,6 +416,47 @@ input {
 .kontakt-input {
     align-content: center;
     padding-top: auto;
+}
+
+.werdegang {
+    padding-bottom: 160px;
+}
+
+.werdegang-beschreibungstext {
+    max-width: 840px;
+}
+
+.werdegang-card-section {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.werdegang-card {
+    display: block;
+    min-width: 200px;
+    max-width: 250px;
+    padding-right: 48px;
+}
+
+.werdegang-card-text {
+    display: block;
+    padding: 0;
+    height: max-content;
+}
+.werdegang-card-text p.light {
+    margin: 0;
+    height: 48px;
+}
+
+.werdegang-card-text p {
+    padding-bottom: 4px;
+    margin: 0;
+}
+
+.werdegang-jahreszahl {
+    margin-top: 24px;
 }
 
 .footer {
