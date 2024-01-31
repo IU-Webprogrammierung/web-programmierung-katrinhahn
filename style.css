@@ -125,8 +125,6 @@ body {
 
 .nav-links {
     display: flex;
-    list-style-type: none;
-    margin-left: auto;
 }
 
 
@@ -243,7 +241,7 @@ body {
 }
 
 .section-titel {
-    max-width: 75%;
+    max-width: 55%;
 }
 
 .leistungen-all-cards {
@@ -294,6 +292,8 @@ ul {
 
 .skill-card {
     display: flex;
+    min-width: 250px;
+    max-width: 350px;
     padding: 24px 48px;
     justify-content: center;
     align-items: center;
