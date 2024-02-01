@@ -97,6 +97,11 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
+.highlighted{
+    color: #413EFF;
+}
+
 body {
     background-color: rgb(0, 0, 0);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -470,18 +475,67 @@ input {
 }
 
 .persönliche-projekte {
-    padding-top: 120px;
+    padding-top: 40px;
     padding-bottom: 120px;
+}
+
+.section-projekt-titel {
+    display: block;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    height: max-content;
+    max-width: 55%;
+}
+
+.section-projekt-titel h4{
+    margin: 8px;
+}
+.section-projekt-titel p{
+    margin: 8px;
 }
 
 .projekt-big-5-glamping {
     display: flex;
 }
-.projekte-card-large {
-    width: 100%;
+
+.projekte-image-large {
+    height: auto;
+  overflow: hidden;
+  border-radius: 12px;
 }
 
-.projekte-image-large{
-    width: 100%;
-    padding-top: 24px;
+.projekte-card-large {
+display:contents ;
 }
+
+.projekte-image-large img{
+    width: 100%;
+    height: auto;
+    padding-top: 48px;
+    object-fit: cover;
+    transition: transform 1s;
+} 
+
+.projekte-image-large :hover
+{
+  transform: scale(1.05);
+}
+
+.projekt-tripshare-section {
+    margin-top: 120px;
+}
+
+.projekte-image-large-plakat {
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+
+.projekte-image-large-plakat img{
+    width: 100%;
+    height: auto;
+    padding-top: 48px;
+    object-fit: cover;
+    transition: transform 1s;
+} 
