@@ -468,3 +468,20 @@ input {
 .skill-card-section{
     padding-bottom: 120px;
 }
+
+.persönliche-projekte {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.projekt-big-5-glamping {
+    display: flex;
+}
+.projekte-card-large {
+    width: 100%;
+}
+
+.projekte-image-large{
+    width: 100%;
+    padding-top: 24px;
+}
