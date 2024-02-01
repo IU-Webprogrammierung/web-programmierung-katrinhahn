@@ -1,0 +1,541 @@
+h1 {
+    font-size: 64px;
+    line-height: 150%;
+    color: #fff;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 150%;
+    color: #fff;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 150%;
+    color: #fff;
+}
+
+h4 {
+    font-size: 30px;
+    line-height: 150%;
+    color: #fff;
+}
+
+p.large {
+    font-size: 24px;
+    line-height: 150%;
+    color: #fff;
+  }
+
+  p.large-bold {
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 700;
+    color: #fff;
+  }
+
+ p.button {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+ }
+
+ p {
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+  }
+
+  p.bold {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  p.light {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 100;
+    letter-spacing: 1px;;
+    color: #fff;
+  }
+
+
+  p.small {
+    font-size: 15px;
+    line-height: 150%;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  p.small-light {
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+
+  p.caption {
+    font-size: 16px;
+    line-height: 150%;
+    color: #FBFF48;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  p.quelle {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+  }
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.highlighted{
+    color: #413EFF;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    width: 80%;
+    padding-top: 24px;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+  }
+
+.navbar li {
+    justify-items: center;
+  }
+
+.navbar a:hover {
+    color: #413EFF;
+}
+
+.nav-link-aktiv {
+    color: #413EFF;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    padding-right: 48px;
+}
+
+.link-icon {
+    display: inline-flex;
+    align-items: center;
+}
+
+.link-icon img {
+    height: 35px;
+    width: 35px;
+}
+
+.link-icon p {
+    margin: 0;
+    padding-right: 12px;
+}
+
+
+.button {
+    background-color: #413EFF;
+    color: #fff;
+    border-radius: 16px;
+    border-style: none;
+    text-align: center;
+    padding: 14px 24px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 250px;
+    margin-top: 24px;
+  }
+  
+.button:hover {
+    background-color: #2f2cd8;
+    border-color: #2f2cd8;
+}
+
+.button-senden {
+    background-color: #413EFF;
+    color: #fff;
+    border-radius: 16px;
+    border-style: none;
+    text-align: center;
+    padding: 14px 24px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 250px;
+    margin-top: 64px;
+  }
+  
+.button-senden:hover {
+    background-color: #2f2cd8;
+    border-color: #2f2cd8;
+}
+
+.hero {
+    display: flex;
+    padding-top: 40%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 120px;
+    padding-bottom: 300px;
+    background-color: black;
+}
+
+.hero-text {
+    max-width: 40%;
+    color: white;
+}
+
+.hero-image {
+    max-width: 45%;
+}
+
+.hero-image img { 
+    width: 100%;
+    height: auto;
+}
+
+.statement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.stat-item {
+    flex-direction: column;
+    width: auto;
+    align-items: flex-start;
+}
+
+.stat-item p.caption {
+    color: #a1a1a1;
+}
+
+.kunden-logo-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 190px;
+    justify-content: center;
+}
+
+.logo-item img {
+    width: 150px;
+    padding-right: 100px;
+    justify-content: center;
+}
+
+.leistungen-index {
+    padding-top: 160px;
+}
+
+.leistungen-über-mich {
+    padding-top: 20;
+}
+
+.section-titel {
+    max-width: 55%;
+}
+
+.leistungen-all-cards {
+    display: flex;
+    flex-wrap:wrap; 
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.leistungen-card {
+    max-width: 350px;
+    min-width: 250px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.leistungen-card-text {
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.leistungen-card-text p {
+    margin: 0;
+    margin-right: auto;
+}
+
+.leistungen-image {
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.leistungen-image img { 
+    object-fit: cover;
+    transition: transform 1s;
+    height: 100%;
+}
+
+.leistungen-image :hover{
+    transform: scale(1.2);
+}
+
+.skills {
+    padding-top: 160px;
+}
+
+.skill-card-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    width: 100%;
+}
+
+.skill-card {
+    display: flex;
+    min-width: 250px;
+    max-width: 350px;
+    padding: 24px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.skill-card img {
+    display: flex;
+    width: auto;
+    height: 50px;
+}
+
+
+.projekte-all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projekte-card {
+    max-width: 350px;
+    min-width: 250px;
+}
+
+.leistungen-card-text {
+    display: flex;
+    justify-content: left;
+}
+
+.projekte-image {
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.projekte-image img { 
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 1s;
+}
+
+.projekte-image :hover{
+    transform: scale(1.1);
+}
+
+.kontakt {
+    padding-top: 160px;
+}
+.kontakt-input-image {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+}
+
+.kontakt-image {
+    max-width: 25%;
+}
+
+.kontakt-image img { 
+    width: 100%;
+    height: auto;
+}
+
+.kontakt-input-section {
+    display: flexbox;
+}
+
+form {
+    max-width: 750px;
+    min-width: 550px;
+}
+
+label {
+    display: block;
+    margin-top: 32px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 16px;
+    background-color: black;
+    color: #fff;
+}
+
+.kontakt-input {
+    align-content: center;
+    padding-top: auto;
+}
+
+
+.werdegang-beschreibungstext {
+    max-width: 840px;
+}
+
+.werdegang-card-section {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.werdegang-card {
+    display: block;
+    min-width: 200px;
+    max-width: 250px;
+    padding-right: 48px;
+}
+
+.werdegang-card-text {
+    display: block;
+    padding: 0;
+    height: max-content;
+}
+.werdegang-card-text p.light {
+    margin: 0;
+    height: 48px;
+}
+
+.werdegang-card-text p {
+    padding-bottom: 4px;
+    margin: 0;
+}
+
+.werdegang-jahreszahl {
+    margin-top: 24px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.skill-card-section{
+    padding-bottom: 120px;
+}
+
+.persönliche-projekte {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.section-projekt-titel {
+    display: block;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    height: max-content;
+    max-width: 55%;
+}
+
+.section-projekt-titel h4{
+    margin: 8px;
+}
+.section-projekt-titel p{
+    margin: 8px;
+}
+
+.projekt-big-5-glamping {
+    display: flex;
+}
+
+.projekte-image-large {
+    height: auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.projekte-card-large {
+display:contents ;
+}
+
+.projekte-image-large img{
+    width: 100%;
+    height: auto;
+    padding-top: 48px;
+    object-fit: cover;
+    transition: transform 1s;
+} 
+
+.projekte-image-large :hover
+{
+  transform: scale(1.05);
+}
+
+.projekt-tripshare-section {
+    margin-top: 120px;
+}
+
+.projekte-image-large-plakat {
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+
+.projekte-image-large-plakat img{
+    width: 100%;
+    height: auto;
+    padding-top: 48px;
+    object-fit: cover;
+    transition: transform 1s;
+} 
