@@ -377,6 +377,25 @@ ul {
     transform: scale(1.1);
 }
 
+.kontakt-section {
+    display: flex;
+    justify-content: space-between;
+}
+.kontakt-text-section {
+    max-width: 500px;
+    margin-right: 64px;
+}
+
+.kontakt-items {
+    display: flex;
+    align-items: center;
+}
+.kontakt-items img {
+    width: 30px;
+    height: 30px;
+    margin-right: 24px;
+}
+
 .kontakt {
     padding-top: 160px;
 }
