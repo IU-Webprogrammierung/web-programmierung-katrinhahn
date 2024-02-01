@@ -110,22 +110,25 @@ body {
     display: flex;
     width: 80%;
     padding-top: 24px;
-    padding-bottom: 24px;
-    margin-bottom: 80px;
     top: 0;
     background-color: rgb(0, 0, 0);
 }
 
 .navbar a {
-    float: light;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+  }
+
+.navbar li {
+    justify-items: center;
   }
 
 .navbar a:hover {
+    color: #413EFF;
+}
+
+.nav-link-aktiv {
     color: #413EFF;
 }
 
@@ -135,6 +138,8 @@ body {
 
 .nav-links {
     display: flex;
+    justify-content: center;
+    padding-right: 48px;
 }
 
 .link-icon {
@@ -334,10 +339,6 @@ ul {
 }
 
 
-.projekte {
-    padding-top: 160px;
-}
-
 .projekte-all-cards {
     display: flex;
     flex-wrap: wrap;
@@ -418,9 +419,6 @@ input {
     padding-top: auto;
 }
 
-.werdegang {
-    padding-bottom: 160px;
-}
 
 .werdegang-beschreibungstext {
     max-width: 840px;
@@ -465,4 +463,8 @@ input {
     justify-content: center;
     padding-top: 12px;
     padding-bottom: 12px;
+}
+
+.skill-card-section{
+    padding-bottom: 120px;
 }
