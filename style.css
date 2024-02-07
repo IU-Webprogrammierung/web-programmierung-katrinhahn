@@ -519,8 +519,8 @@ input {
 
 .projekte-image-large {
     height: auto;
-  overflow: hidden;
-  border-radius: 12px;
+    overflow: hidden;
+    border-radius: 12px;
 }
 
 .projekte-card-large {
@@ -535,8 +535,7 @@ display:contents ;
     transition: transform 1s;
 } 
 
-.projekte-image-large :hover
-{
+.projekte-image-large :hover {
   transform: scale(1.05);
 }
 
@@ -547,9 +546,7 @@ display:contents ;
 .projekte-image-large-plakat {
     height: auto;
     overflow: hidden;
-    border-radius: 12px;
 }
-
 
 .projekte-image-large-plakat img{
     width: 100%;
@@ -558,3 +555,7 @@ display:contents ;
     object-fit: cover;
     transition: transform 1s;
 } 
+
+.projekte-image-large-plakat :hover {
+    transform: scale(1.05);
+  }
