@@ -559,3 +559,20 @@ display:contents ;
 .projekte-image-large-plakat :hover {
     transform: scale(1.05);
   }
+
+  .logo-galerie {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .logo-galerie img {
+    max-width: 400px;
+    min-width: 250px;
+    object-fit: cover;
+    transition: transform 1s;
+  }
+
+  .logo-galerie img:hover {
+    transform: scale(1.05);
+  }
