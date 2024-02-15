@@ -322,6 +322,7 @@ body {
 .skill-card-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 ul {
     width: 100%;
@@ -329,10 +330,8 @@ ul {
 
 .skill-card {
     display: flex;
-    min-width: 250px;
-    max-width: 350px;
     padding: 24px 48px;
-    justify-content: center;
+    min-width: 280px;
     align-items: center;
     gap: 24px;
 }
