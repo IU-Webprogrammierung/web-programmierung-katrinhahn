@@ -250,7 +250,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-top: 190px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .logo-item img {
