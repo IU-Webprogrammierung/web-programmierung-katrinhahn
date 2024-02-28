@@ -277,6 +277,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 32px;
+    margin: 0;
 }
 
 .leistungen-card {
@@ -284,6 +285,8 @@ body {
     min-width: 250px;
     padding-right: 24px;
     padding-bottom: 24px;
+    margin: 12px;
+
 }
 
 .leistungen-card-text {
@@ -444,7 +447,7 @@ input {
 
 
 .werdegang-beschreibungstext {
-    max-width: 840px;
+    width: 100%;
 }
 
 .werdegang-card-section {
