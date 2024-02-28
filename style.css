@@ -1,4 +1,5 @@
 h1 {
+
     font-size: 64px;
     line-height: 150%;
     color: #fff;
@@ -56,7 +57,7 @@ p.large {
 
   p.light {
     font-size: 18px;
-    line-height: 150%;
+    line-height: 160%;
     font-weight: 100;
     letter-spacing: 1px;;
     color: #fff;
@@ -65,21 +66,21 @@ p.large {
 
   p.small {
     font-size: 15px;
-    line-height: 150%;
+    line-height: 160%;
     color: #fff;
     letter-spacing: 1px;
   }
 
   p.small-light {
     font-size: 14px;
-    line-height: 150%;
+    line-height: 160%;
     font-weight: 100;
     letter-spacing: 1px;
   }
 
   p.caption {
     font-size: 16px;
-    line-height: 150%;
+    line-height: 160%;
     color: #FBFF48;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -107,22 +108,22 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-left: 10%;
     padding-right: 10%;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .navbar {
-    overflow: hidden;
     position: fixed;
     display: flex;
     width: 80%;
     padding-top: 24px;
-    top: 0;
     background-color: rgb(0, 0, 0);
+    align-items: center;
+    max-width: 1440px;
 }
 
 .navbar a {
-    display: block;
     text-align: center;
-    padding: 14px 16px;
   }
 
 .navbar li {
@@ -133,7 +134,7 @@ body {
     color: #413EFF;
 }
 
-.nav-link-aktiv {
+.nav-link a:active {
     color: #413EFF;
 }
 
@@ -143,8 +144,8 @@ body {
 
 .nav-links {
     display: flex;
-    justify-content: center;
-    padding-right: 48px;
+    justify-content: space-between;
+    margin-left: 32%;
 }
 
 .link-icon {
@@ -250,7 +251,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-top: 190px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .logo-item img {
@@ -285,8 +286,7 @@ body {
     min-width: 250px;
     padding-right: 24px;
     padding-bottom: 24px;
-    margin: 12px;
-
+    padding-left: 0;
 }
 
 .leistungen-card-text {
@@ -566,15 +566,16 @@ display:contents ;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .logo-galerie img {
-    max-width: 400px;
-    min-width: 250px;
+    max-width: 300px;
+    min-width: 150px;
     object-fit: cover;
     transition: transform 1s;
   }
 
   .logo-galerie img:hover {
-    transform: scale(1.05);
+    transform: scale(1.0);
   }
