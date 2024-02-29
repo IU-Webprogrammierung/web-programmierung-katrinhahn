@@ -134,8 +134,8 @@ body {
     color: #413EFF;
 }
 
-.nav-link a:active {
-    color: #413EFF;
+.nav-link-aktiv {
+    color: #4b63ff;
 }
 
 .logo img {
@@ -257,7 +257,7 @@ body {
 .logo-item img {
     width: 150px;
     padding-right: 100px;
-    justify-content: center;
+
 }
 
 .leistungen-index {
