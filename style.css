@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
 
     font-size: 4rem;
@@ -477,9 +482,6 @@ p.caption {
         font-size: 0.91rem;
     }
 }
-
-
-
 p.quelle {
     font-size: 18px;
     font-style: normal;
@@ -517,8 +519,7 @@ p.quelle {
         font-size: 0.98rem;
     }
 }
-
-
+ 
 a {
     color: #fff;
     text-decoration: none;
@@ -529,6 +530,7 @@ a {
 }
 
 body {
+    min-height: 100vh;
     background-color: rgb(0, 0, 0);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-left: 10%;
@@ -541,11 +543,12 @@ body {
     padding-top: 48px;
 }
 
+
 .navbar {
     position: fixed;
     display: flex;
     width: 80%;
-    padding-top: 24px;
+    padding-top:24px;
     background-color: rgb(0, 0, 0);
     align-items: center;
     max-width: 1440px;
@@ -553,10 +556,12 @@ body {
 
 .navbar a {
     text-align: center;
+    list-style: none;
+    margin: 36px;
 }
 
 .navbar li {
-    justify-items: center;
+    list-style: none;
 }
 
 .navbar a:hover {
@@ -564,7 +569,7 @@ body {
 }
 
 .nav-link-aktiv {
-    color: #4b63ff;
+    color: #4B63FF;
 }
 
 .logo img {
@@ -573,8 +578,27 @@ body {
 
 .nav-links {
     display: flex;
-    justify-content: space-between;
     margin-left: 32%;
+    justify-content: flex-end;
+}
+
+.link-icon {
+    display: inline-flex;
+    align-items: center;
+}
+
+.link-icon img {
+    height: 35px;
+    width: 35px;
+}
+
+.link-icon p {
+    margin: 0;
+    padding-right: 12px;
+}
+
+.logo img {
+    height: 30px;
 }
 
 .link-icon {
@@ -608,15 +632,15 @@ body {
 
 @media only screen and (max-width: 1200px) {
     .button {
-    background-color: #413EFF;
-    color: #fff;
-    border-radius: 16px;
-    border-style: none;
-    text-align: center;
-    padding: 14px 24px;
-    font-weight: 500;
-    width: 220px;
-    margin-top: 24px;
+        background-color: #413EFF;
+        color: #fff;
+        border-radius: 16px;
+        border-style: none;
+        text-align: center;
+        padding: 14px 24px;
+        font-weight: 500;
+        width: 220px;
+        margin-top: 24px;
     }
 }
 
@@ -673,16 +697,16 @@ body {
 
 .hero {
     display: flex;
-    padding-top: 40%;
+    padding-top: 20%;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
-    margin-bottom: 120px;
     padding-bottom: 300px;
     background-color: black;
 }
 
 .hero-text {
+    display: grid;
+    gap: 48px;
     max-width: 40%;
     color: white;
 }
@@ -700,6 +724,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 16px;
 }
 
 .stat {
@@ -734,7 +759,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .stat{
+    .stat {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -785,7 +810,7 @@ body {
 }
 
 @media only screen and (max-width: 1600px) {
-    .section-titel{
+    .section-titel {
         max-width: 60%;
     }
 }
@@ -798,12 +823,13 @@ body {
 
 @media only screen and (max-width: 992px) {
     .section-titel {
-        max-width: 80%;;
+        max-width: 80%;
+        ;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .section-titel{
+    .section-titel {
         max-width: 90%;
     }
 }
@@ -833,7 +859,7 @@ body {
 }
 
 @media only screen and (max-width: 1600px) {
-    .leistungen-cardl{
+    .leistungen-cardl {
         max-width: 350px;
         min-width: 250px;
         padding-right: 24px;
@@ -863,7 +889,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .leistungen-card{
+    .leistungen-card {
         max-width: auto;
         min-width: 250px;
         padding-right: 4px;
