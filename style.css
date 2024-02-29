@@ -535,7 +535,6 @@ body {
     padding-right: 10%;
     max-width: 1440px;
     margin: auto;
-    position: absolute;
 }
 
 .main-content {
@@ -597,14 +596,56 @@ body {
 .button {
     background-color: #413EFF;
     color: #fff;
+    font-size: 1rem;
     border-radius: 16px;
     border-style: none;
     text-align: center;
     padding: 14px 24px;
     font-weight: 500;
-    font-size: 18px;
     width: 250px;
     margin-top: 24px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .button {
+    background-color: #413EFF;
+    color: #fff;
+    border-radius: 16px;
+    border-style: none;
+    text-align: center;
+    padding: 14px 24px;
+    font-weight: 500;
+    width: 220px;
+    margin-top: 24px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .button {
+        background-color: #413EFF;
+        color: #fff;
+        border-radius: 16px;
+        border-style: none;
+        text-align: center;
+        padding: 12px 22px;
+        font-weight: 500;
+        width: 200px;
+        margin-top: 24px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .button {
+        background-color: #413EFF;
+        color: #fff;
+        border-radius: 16px;
+        border-style: none;
+        text-align: center;
+        padding: 10px 20px;
+        font-weight: 500;
+        width: 180px;
+        margin-top: 24px;
+    }
 }
 
 .button:hover {
