@@ -1,105 +1,530 @@
 h1 {
 
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 150%;
     color: #fff;
+}
+
+@media only screen and (max-width: 1600px) {
+    h1 {
+        font-size: 3.6rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    h1 {
+        font-size: 2.0rem;
+    }
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 2.4rem;
     line-height: 150%;
     color: #fff;
+}
+
+@media only screen and (max-width: 1600px) {
+    h2 {
+        font-size: 2.3rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    h2 {
+        font-size: 2.1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 2.0rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    h2 {
+        font-size: 1.9rem;
+    }
 }
 
 h3 {
-    font-size: 36px;
+    font-size: 2.2rem;
     line-height: 150%;
     color: #fff;
+}
+
+@media only screen and (max-width: 1600px) {
+    h3 {
+        font-size: 2.1rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    h3 {
+        font-size: 2.0rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    h3 {
+        font-size: 1.9rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h3 {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    h3 {
+        font-size: 1.7rem;
+    }
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 1.8rem;
     line-height: 150%;
     color: #fff;
 }
 
+@media only screen and (max-width: 1600px) {
+    h4 {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    h4 {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    h4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h4 {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    h4 {
+        font-size: 1.3rem;
+    }
+}
+
+
 p.large {
-    font-size: 24px;
+    font-size: 1.44rem;
     line-height: 150%;
     color: #fff;
-  }
+}
 
-  p.large-bold {
+
+@media only screen and (max-width: 1600px) {
+    p.large {
+        font-size: 1.34rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    p.large {
+        font-size: 1.24rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    p.large {
+        font-size: 1.14rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p.large {
+        font-size: 1.04rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    p.large {
+        font-size: 0.94rem;
+    }
+}
+
+p.large-bold {
     font-size: 24px;
     line-height: 150%;
     font-weight: 700;
     color: #fff;
-  }
+}
 
- p.button {
-    font-size: 18px;
+@media only screen and (max-width: 1600px) {
+    p.large-bold {
+        font-size: 1.34rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    p.large-bold {
+        font-size: 1.24rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    p.large-bold {
+        font-size: 1.14rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p.large-bold {
+        font-size: 1.04rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    p.large-bold {
+        font-size: 0.94rem;
+    }
+}
+
+p.button {
+    font-size: 1.08rem;
     font-weight: 500;
     color: #fff;
- }
+}
 
- p {
-    font-size: 18px;
+@media only screen and (max-width: 1600px) {
+    p.button {
+        font-size: 1.06rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    p {
+        font-size: 1.04rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    p.button {
+        font-size: 1.02rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p.button {
+        font-size: 1.0rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    p.button {
+        font-size: 0.98rem;
+    }
+}
+
+p {
+    font-size: 1.08rem;
     line-height: 150%;
     color: #fff;
-  }
+}
 
-  p.bold {
-    font-size: 18px;
+@media only screen and (max-width: 1600px) {
+    p {
+        font-size: 1.06rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    p {
+        font-size: 1.04rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    p {
+        font-size: 1.02rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p {
+        font-size: 1.0rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    p {
+        font-size: 0.98rem;
+    }
+}
+
+p.bold {
+    font-size: 1.08rem;
     line-height: 150%;
     font-weight: 700;
     color: #fff;
-  }
+}
 
-  p.light {
-    font-size: 18px;
+@media only screen and (max-width: 1600px) {
+    p.bold {
+        font-size: 1.06rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    p.bold {
+        font-size: 1.04rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    p.bold {
+        font-size: 1.02rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p.bold {
+        font-size: 1.0rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    p.bold {
+        font-size: 0.98rem;
+    }
+}
+
+
+p.light {
+    font-size: 1.08rem;
     line-height: 160%;
     font-weight: 100;
-    letter-spacing: 1px;;
+    letter-spacing: 1px;
     color: #fff;
-  }
+}
 
+@media only screen and (max-width: 1600px) {
+    p.light {
+        font-size: 1.06rem;
+    }
+}
 
-  p.small {
-    font-size: 15px;
+@media only screen and (max-width: 1200px) {
+    p.light {
+        font-size: 1.04rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    p.light {
+        font-size: 1.02rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p.light {
+        font-size: 1.0rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    p.light {
+        font-size: 0.98rem;
+    }
+}
+
+p.small {
+    font-size: 0.9rem;
     line-height: 160%;
     color: #fff;
     letter-spacing: 1px;
-  }
+}
 
-  p.small-light {
-    font-size: 14px;
+@media only screen and (max-width: 1600px) {
+    p.small {
+        font-size: 0.89rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    p.small {
+        font-size: 0.88rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    p.small {
+        font-size: 0.87rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p.small {
+        font-size: 0.86rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    p.small {
+        font-size: 0.85rem;
+    }
+}
+
+p.small-light {
+    font-size: 0.84rem;
     line-height: 160%;
     font-weight: 100;
     letter-spacing: 1px;
-  }
+}
 
-  p.caption {
-    font-size: 16px;
+@media only screen and (max-width: 1600px) {
+    p.small-light {
+        font-size: 0.83rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    p.small-light {
+        font-size: 0.82rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    p.small-light {
+        font-size: 0.81rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p.small-light {
+        font-size: 0.80rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    p.small-light {
+        font-size: 0.79rem;
+    }
+}
+
+p.caption {
+    font-size: 0.96rem;
     line-height: 160%;
     color: #FBFF48;
     text-transform: uppercase;
     letter-spacing: 2px;
-  }
+}
 
-  p.quelle {
+@media only screen and (max-width: 1600px) {
+    p.caption {
+        font-size: 0.95rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    p.caption {
+        font-size: 0.94rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    p.caption {
+        font-size: 0.93rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p.caption {
+        font-size: 0.92rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    p.caption {
+        font-size: 0.91rem;
+    }
+}
+
+
+
+p.quelle {
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
     letter-spacing: 7px;
     text-transform: uppercase;
-  }
+}
+
+@media only screen and (max-width: 1600px) {
+    p.quelle {
+        font-size: 1.06rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    p.quelle {
+        font-size: 1.04rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    p.quelle {
+        font-size: 1.02rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p.quelle {
+        font-size: 1.0rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    p.quelle {
+        font-size: 0.98rem;
+    }
+}
+
 
 a {
     color: #fff;
     text-decoration: none;
 }
 
-.highlighted{
+.highlighted {
     color: #413EFF;
 }
 
@@ -110,6 +535,11 @@ body {
     padding-right: 10%;
     max-width: 1440px;
     margin: auto;
+    position: absolute;
+}
+
+.main-content {
+    padding-top: 48px;
 }
 
 .navbar {
@@ -124,11 +554,11 @@ body {
 
 .navbar a {
     text-align: center;
-  }
+}
 
 .navbar li {
     justify-items: center;
-  }
+}
 
 .navbar a:hover {
     color: #413EFF;
@@ -175,8 +605,8 @@ body {
     font-size: 18px;
     width: 250px;
     margin-top: 24px;
-  }
-  
+}
+
 .button:hover {
     background-color: #2f2cd8;
     border-color: #2f2cd8;
@@ -193,8 +623,8 @@ body {
     font-size: 18px;
     width: 250px;
     margin-top: 64px;
-  }
-  
+}
+
 .button-senden:hover {
     background-color: #2f2cd8;
     border-color: #2f2cd8;
@@ -220,7 +650,7 @@ body {
     max-width: 45%;
 }
 
-.hero-image img { 
+.hero-image img {
     width: 100%;
     height: auto;
 }
@@ -274,7 +704,7 @@ body {
 
 .leistungen-all-cards {
     display: flex;
-    flex-wrap:wrap; 
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 32px;
@@ -308,13 +738,13 @@ body {
     border-radius: 12px;
 }
 
-.leistungen-image img { 
+.leistungen-image img {
     object-fit: cover;
     transition: transform 1s;
     height: 100%;
 }
 
-.leistungen-image :hover{
+.leistungen-image :hover {
     transform: scale(1.2);
 }
 
@@ -327,6 +757,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 ul {
     width: 100%;
 }
@@ -368,14 +799,14 @@ ul {
     border-radius: 12px;
 }
 
-.projekte-image img { 
+.projekte-image img {
     width: 100%;
     height: auto;
     object-fit: cover;
     transition: transform 1s;
 }
 
-.projekte-image :hover{
+.projekte-image :hover {
     transform: scale(1.1);
 }
 
@@ -383,6 +814,7 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+
 .kontakt-text-section {
     max-width: 500px;
     margin-right: 64px;
@@ -392,6 +824,7 @@ ul {
     display: flex;
     align-items: center;
 }
+
 .kontakt-items img {
     width: 30px;
     height: 30px;
@@ -401,6 +834,7 @@ ul {
 .kontakt {
     padding-top: 160px;
 }
+
 .kontakt-input-image {
     display: flex;
     justify-content: space-between;
@@ -411,7 +845,7 @@ ul {
     max-width: 25%;
 }
 
-.kontakt-image img { 
+.kontakt-image img {
     width: 100%;
     height: auto;
 }
@@ -469,6 +903,7 @@ input {
     padding: 0;
     height: max-content;
 }
+
 .werdegang-card-text p.light {
     margin: 0;
     height: 48px;
@@ -491,7 +926,7 @@ input {
     padding-bottom: 12px;
 }
 
-.skill-card-section{
+.skill-card-section {
     padding-bottom: 120px;
 }
 
@@ -508,10 +943,11 @@ input {
     max-width: 55%;
 }
 
-.section-projekt-titel h4{
+.section-projekt-titel h4 {
     margin: 8px;
 }
-.section-projekt-titel p{
+
+.section-projekt-titel p {
     margin: 8px;
 }
 
@@ -526,19 +962,19 @@ input {
 }
 
 .projekte-card-large {
-display:contents ;
+    display: contents;
 }
 
-.projekte-image-large img{
+.projekte-image-large img {
     width: 100%;
     height: auto;
     padding-top: 48px;
     object-fit: cover;
     transition: transform 1s;
-} 
+}
 
 .projekte-image-large :hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .projekt-tripshare-section {
@@ -550,32 +986,32 @@ display:contents ;
     overflow: hidden;
 }
 
-.projekte-image-large-plakat img{
+.projekte-image-large-plakat img {
     width: 100%;
     height: auto;
     padding-top: 48px;
     object-fit: cover;
     transition: transform 1s;
-} 
+}
 
 .projekte-image-large-plakat :hover {
     transform: scale(1.05);
-  }
+}
 
-  .logo-galerie {
+.logo-galerie {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
+}
 
-  .logo-galerie img {
+.logo-galerie img {
     max-width: 300px;
     min-width: 150px;
     object-fit: cover;
     transition: transform 1s;
-  }
+}
 
-  .logo-galerie img:hover {
+.logo-galerie img:hover {
     transform: scale(1.0);
-  }
+}
