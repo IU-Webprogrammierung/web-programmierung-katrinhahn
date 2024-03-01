@@ -10,17 +10,23 @@
 
 <body>
     <nav class="navbar">
-        <div class="logo">
+        <main class="navigation-content">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span class="hamburger hamburger-1"></span>
+                <span class="hamburger hamburger-2"></span>
+                <span class="hamburger hamburger-3"></span>
+            </div>
             <a href="index.html">
-                <img src="images/logo-navbar.png" alt="logo-navbar">
+                <div class="logo"><img src="images/logo-navbar.png" alt="logo-navbar"></div>
             </a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="über-mich.html">Über mich</a></li>
-            <li><a class= "nav-link-aktiv" href="projekte.html">Projekte</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
+            <div class="menu" id="menu">
+                <a href="about.html" class="item">About</a>
+                <a href="projekte.html" class="item">Projekte </a>
+                <a href="kontakt.html" class="item">Kontakt</a>
+            </div>
+        </main>
     </nav>
+
 
     <header class="hero">
         <main class="hero-text">
@@ -93,31 +99,31 @@
                 </div>
             </article>
             <main class="projekt-swipe-section">
-            <header class="section-projekt-titel">
-                <h4>App Design <span class="highlighted">"Swipe"</span></h4>
-                <p class="light">Im Rahmen eines Uni-Projektes habe ich einen fiktiven Werbeauftritt einer Lodge in
-                    Südafrika konzipiert und in einem Prototyp umgesetzt.</p>
-            </header>
-            <article class="projekt-swipe">
-                <main class="projekte-all-cards">
-                    <article class="projekte-card">
-                        <div class="projekte-image">
-                            <img src="images/projekte-swipe/home.png" alt="home">
-                        </div>
-                    </article>
-                    <article class="projekte-card">
-                        <div class="projekte-image">
-                            <img src="images/projekte-swipe/example.png" alt="example">
-                        </div>
-                    </article>
-                    <article class="projekte-card">
-                        <div class="projekte-image">
-                            <img src="images/projekte-swipe/auswertung.png" alt="auswertung">
-                        </div>
-                    </article>
-                </main>
-            </article>
-        </main>
+                <header class="section-projekt-titel">
+                    <h4>App Design <span class="highlighted">"Swipe"</span></h4>
+                    <p class="light">Im Rahmen eines Uni-Projektes habe ich einen fiktiven Werbeauftritt einer Lodge in
+                        Südafrika konzipiert und in einem Prototyp umgesetzt.</p>
+                </header>
+                <article class="projekt-swipe">
+                    <main class="projekte-all-cards">
+                        <article class="projekte-card">
+                            <div class="projekte-image">
+                                <img src="images/projekte-swipe/home.png" alt="home">
+                            </div>
+                        </article>
+                        <article class="projekte-card">
+                            <div class="projekte-image">
+                                <img src="images/projekte-swipe/example.png" alt="example">
+                            </div>
+                        </article>
+                        <article class="projekte-card">
+                            <div class="projekte-image">
+                                <img src="images/projekte-swipe/auswertung.png" alt="auswertung">
+                            </div>
+                        </article>
+                    </main>
+                </article>
+            </main>
     </section>
 
     <section class="logo-design">

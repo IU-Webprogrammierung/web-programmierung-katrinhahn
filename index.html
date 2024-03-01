@@ -9,272 +9,286 @@
 </head>
 
 <body>
+
     <nav class="navbar">
-        <div class="logo">
+        <main class="navigation-content">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span class="hamburger-hamburger-1"></span>
+                <span class="hamburger hamburger 2"></span>
+                <span class="hamburger hamburger 3"></span>
+            </div>
             <a href="index.html">
-                <img src="images/logo-navbar.png" alt="logo-navbar">
+                <div class="logo"><img src="images/logo-navbar.png" alt="logo-navbar"></div>
             </a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="über-mich.html">Über mich</a></li>
-            <li><a href="projekte.html">Projekte</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
+            <div class="menu" id="menu">
+                <a href="about.html" class="item">About</a>
+                <a href="projekte.html" class="item">Projekte </a>
+                <a href="kontakt.html" class="item">Kontakt</a>
+            </div>
+        </main>
     </nav>
-<main class="main-content">
-    <header class="hero">
-        <main class="hero-text">
-            <h1>Hey, ich bin <span class="highlighted">Katrin</span> UX Designerin aus dem Sauerland</h1>
-            <div class="statement">
-                <img src="images/anführungszeichen.png" alt="anführungszeichen">
-                <p class="large">Design is not just what it looks like and feels like. Design is how it works.</p>
-                <p class="quelle">Steve Jobs</p>
+
+    <main class="main-content">
+        <header class="hero">
+            <main class="hero-text">
+                <h1>Hey, ich bin <span class="highlighted">Katrin</span> UX Designerin aus dem Sauerland</h1>
+                <div class="statement">
+                    <img src="images/anführungszeichen.png" alt="anführungszeichen">
+                    <p class="large">Design is not just what it looks like and feels like. Design is how it works.</p>
+                    <p class="quelle">Steve Jobs</p>
+                </div>
+                <button class="button"><a href="projekte.html">Meine Projekte</a></button>
+            </main>
+            <div class="hero-image">
+                <img src="images/hero.png" alt="hero-image">
             </div>
-            <button class="button"><a href="projekte.html">Meine Projekte</a></button>
-        </main>
-        <div class="hero-image">
-            <img src="images/hero.png" alt="hero-image">
-        </div>
-    </header>
-
-    <section class="stat">
-        <div class="stat-item">
-            <p class="caption">Erfahrung</p>
-            <h4>3 Jahre</h4>
-        </div>
-        <div class="stat-item">
-            <p class="caption">Projekte</p>
-            <h4>8</h4>
-        </div>
-        <div class="stat-item">
-            <p class="caption">Kunden</p>
-            <h4>5</h4>
-        </div>
-        <div class="stat-item">
-            <p class="caption">Styleguides</p>
-            <h4>3</h4>
-        </div>
-    </section>
-
-    <section class="leistungen-index">
-        <header class="section-titel">
-            <p class="caption">Leistungen</p>
-            <H3>In folgenden Bereichen unterstütze ich dich gerne</H3>
         </header>
-        <main class="leistungen-all-cards">
-            <figure class="leistungen-card">
-                <div class="leistungen-image">
-                    <img src="images/leistungen/konzept.png" alt="konzept">
-                </div>
-                <div class="leistungen-card-text">
-                    <p>Konzeption</p>
-                    <div class="link-icon">
-                        <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
-                    </div>
-                </div>
-            </figure>
-            <figure class="leistungen-card">
-                <div class="leistungen-image">
-                    <img src="images/leistungen/wireframe.png" alt="wireframe">
-                </div>
-                <div class="leistungen-card-text">
-                    <p>Wireframing</p>
-                    <div class="link-icon">
-                        <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
-                    </div>
-                </div>
-            </figure>
-            <figure class="leistungen-card">
-                <div class="leistungen-image">
-                    <img src="images/leistungen/prototyp.png" alt="prototyp">
-                </div>
-                <div class="leistungen-card-text">
-                    <p>High- and Low Fidelity Prototyping</p>
-                    <div class="link-icon">
-                        <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
-                    </div>
-                </div>
-            </figure>
-            <figure class="leistungen-card">
-                <div class="leistungen-image">
-                    <img src="images/leistungen/research.png" alt="research">
-                </div>
-                <div class="leistungen-card-text">
-                    <p>User Research</p>
-                    <div class="link-icon">
-                        <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
-                    </div>
-                </div>
-            </figure>
-            <figure class="leistungen-card">
-                <div class="leistungen-image">
-                    <img src="images/leistungen/projektmanagement.png" alt="projektmanagement">
-                </div>
-                <div class="leistungen-card-text">
-                    <p>Projektmanagement</p>
-                    <div class="link-icon">
-                        <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
-                    </div>
-                </div>
-            </figure>
-            <figure class="leistungen-card">
-                <div class="leistungen-image">
-                    <img src="images/leistungen/video-bildbearbeitung.png" alt="video-bildbearbeitung">
-                </div>
-                <div class="leistungen-card-text">
-                    <p>Video- und Bildbearbeitung</p>
-                    <div class="link-icon">
-                        <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
-                    </div>
-                </div>
-            </figure>
-        </main>
-    </section>
 
-    <section class="skills">
-        <header class="section-titel">
-            <p class="caption">Skills</p>
-            <H3>Tools und Software, mit denen ich gerne arbeite</H3>
-        </header>
-        <main class="skill-card-section">
-            <li class="skill-card">
-                <img src="images/skills/figma.png" alt="figma">
-                <div class="skill-text-section">
-                    <p class="bold">Figma</p>
-                    <p class="light">UX / UI Prototyping</p>
-                </div>
-            </li>
-            <li class="skill-card">
-                <img src="images/skills/ps.png" alt="ps">
-                <div class="skill-text-section">
-                    <p class="bold">Photoshop</p>
-                    <p class="light">Bildbearbeitung</p>
-                </div>
-            </li>
-            <li class="skill-card">
-                <img src="images/skills/ai.png" alt="ai">
-                <div class="skill-text-section">
-                    <p class="bold">Illustrator</p>
-                    <p class="light">Logo / Grafik Design</p>
-                </div>
-            </li>
-            <li class="skill-card">
-                <img src="images/skills/ae.png" alt="ae">
-                <div class="skill-text-section">
-                    <p class="bold">After Effekts</p>
-                    <p class="light">Video & Anmiamtionen</p>
-                </div>
-            </li>
-            <li class="skill-card">
-                <img src="images/skills/linear.png" alt="Linear">
-                <div class="skill-text-section">
-                    <p class="bold">Linear</p>
-                    <p class="light">Projektmanagement</p>
-                </div>
-            </li>
-            <li class="skill-card">
-                <img src="images/skills/maze.png" alt="maze">
-                <div class="skill-text-section">
-                    <p class="bold">Maze</p>
-                    <p class="light">User Testing</p>
-                </div>
-            </li>
-        </main>
-    </section>
-
-    <section class="projekte">
-        <header class="section-titel">
-            <p class="caption">Portfolio</p>
-            <H3>Persönliche Projekte</H3>
-        </header>
-        <main class="projekte-all-cards">
-            <div class="projekte-card">
-                <div class="projekte-image">
-                    <img src="images/projekte-image-1.png" alt="projekte-image-1">
-                </div>
-                <div class="projekte-card-text">
-                    <p class="bold">Big 5 Glamping</p>
-                    <p class="light">Responsive Webdesign für eine Lodge in Südafrika.</p>
-                    <div class="link-icon">
-                        <p class="small">mehr erfahren</p>
-                        <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
-                    </div>
-                </div>
+        <section class="stat">
+            <div class="stat-item">
+                <p class="caption">Erfahrung</p>
+                <h4>3 J.</h4>
             </div>
-            <div class="projekte-card">
-                <div class="projekte-image">
-                    <img src="images/projekte-image-2.png" alt="projekte-image-2">
-                </div>
-                <div class="projekte-card-text">
-                    <p class="bold">Swipe</p>
-                    <p class="light">App Design für Marketing Argeturen um Onboarding-Prozesse effizenter zu gestalten.
-                    </p>
-                    <div class="link-icon">
-                        <p class="small">mehr erfahren</p>
-                        <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
-                    </div>
-                </div>
+            <div class="stat-item">
+                <p class="caption">Projekte</p>
+                <h4>8</h4>
             </div>
-            <div class="projekte-card">
-                <div class="projekte-image">
-                    <img src="images/projekte-image-3.png" alt="projekte-image-3">
-                </div>
-                <div class="projekte-card-text">
-                    <p class="bold">TripShare</p>
-                    <p class="light">App Design für Personen auf Reisen, die Ihre Erlebnisse gerne mit Ihren Liebsten
-                        teilen möchten.</p>
-                    <div class="link-icon">
-                        <p class="small">mehr erfahren</p>
-                        <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
-                    </div>
-                </div>
+            <div class="stat-item">
+                <p class="caption">Kunden</p>
+                <h4>5</h4>
             </div>
-        </main>
-    </section>
+            <div class="stat-item">
+                <p class="caption">Styleguides</p>
+                <h4>3</h4>
+            </div>
+        </section>
 
-    <section class="kunden-logo-section">
-        <li class="logo-item">
-            <img src="images/kunden/fettebeute.png" alt="fettebeute">
-        </li>
-        <li class="logo-item">
-            <img src="images/kunden/lenne.tech.png" alt="lenne.tech">
-        </li>
-        <li class="logo-item">
-            <img src="images/kunden/nerdforce.png" alt="nerdforce">
-        </li>
-        <li class="logo-item">
-            <img src="images/kunden/stazzel.png" alt="stazzel">
-        </li>
-        <li class="logo-item">
-            <img src="images/kunden/vyn.png" alt="vyn">
-        </li>
-    </section>
+        <section class="leistungen-index">
+            <header class="section-titel">
+                <p class="caption">Leistungen</p>
+                <H3>In folgenden Bereichen unterstütze ich dich gerne</H3>
+            </header>
+            <main class="leistungen-all-cards">
+                <figure class="leistungen-card">
+                    <div class="leistungen-image">
+                        <img src="images/leistungen/konzept.png" alt="konzept">
+                    </div>
+                    <div class="leistungen-card-text">
+                        <p>Konzeption</p>
+                        <div class="link-icon">
+                            <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
+                        </div>
+                    </div>
+                </figure>
+                <figure class="leistungen-card">
+                    <div class="leistungen-image">
+                        <img src="images/leistungen/wireframe.png" alt="wireframe">
+                    </div>
+                    <div class="leistungen-card-text">
+                        <p>Wireframing</p>
+                        <div class="link-icon">
+                            <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
+                        </div>
+                    </div>
+                </figure>
+                <figure class="leistungen-card">
+                    <div class="leistungen-image">
+                        <img src="images/leistungen/prototyp.png" alt="prototyp">
+                    </div>
+                    <div class="leistungen-card-text">
+                        <p>High- and Low Fidelity Prototyping</p>
+                        <div class="link-icon">
+                            <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
+                        </div>
+                    </div>
+                </figure>
+                <figure class="leistungen-card">
+                    <div class="leistungen-image">
+                        <img src="images/leistungen/research.png" alt="research">
+                    </div>
+                    <div class="leistungen-card-text">
+                        <p>User Research</p>
+                        <div class="link-icon">
+                            <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
+                        </div>
+                    </div>
+                </figure>
+                <figure class="leistungen-card">
+                    <div class="leistungen-image">
+                        <img src="images/leistungen/projektmanagement.png" alt="projektmanagement">
+                    </div>
+                    <div class="leistungen-card-text">
+                        <p>Projektmanagement</p>
+                        <div class="link-icon">
+                            <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
+                        </div>
+                    </div>
+                </figure>
+                <figure class="leistungen-card">
+                    <div class="leistungen-image">
+                        <img src="images/leistungen/video-bildbearbeitung.png" alt="video-bildbearbeitung">
+                    </div>
+                    <div class="leistungen-card-text">
+                        <p>Video- und Bildbearbeitung</p>
+                        <div class="link-icon">
+                            <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
+                        </div>
+                    </div>
+                </figure>
+            </main>
+        </section>
 
-    <section class="kontakt">
-        <header class="section-titel">
-            <p class="caption">Kontakt</p>
-            <H3>Schreib mir gerne eine Nachricht oder ruf mich an</H3>
-        </header>
-                <main class="kontakt-items-section-index">
-                    <div class="kontakt-items">
-                        <img src="images/icon/phone.png" alt="phone">
-                        <p>0151 12345 667</p>
+        <section class="skills">
+            <header class="section-titel">
+                <p class="caption">Skills</p>
+                <H3>Tools und Software, mit denen ich gerne arbeite</H3>
+            </header>
+            <main class="skill-card-section">
+                <li class="skill-card">
+                    <img src="images/skills/figma.png" alt="figma">
+                    <div class="skill-text-section">
+                        <p class="bold">Figma</p>
+                        <p class="light">UX / UI Prototyping</p>
                     </div>
-                    <div class="kontakt-items">
-                        <img src="images/icon/envelope.png" alt="envelope">
-                        <p>katrin.hahn@mail.de</p>
+                </li>
+                <li class="skill-card">
+                    <img src="images/skills/ps.png" alt="ps">
+                    <div class="skill-text-section">
+                        <p class="bold">Photoshop</p>
+                        <p class="light">Bildbearbeitung</p>
                     </div>
-                    <div class="kontakt-items">
-                        <img src="images/icon/pinangle.png" alt="pinangle">
-                        <p>57399 Kirchhundem</p>
+                </li>
+                <li class="skill-card">
+                    <img src="images/skills/ai.png" alt="ai">
+                    <div class="skill-text-section">
+                        <p class="bold">Illustrator</p>
+                        <p class="light">Logo / Grafik Design</p>
                     </div>
-                </main>
-    </section>
+                </li>
+                <li class="skill-card">
+                    <img src="images/skills/ae.png" alt="ae">
+                    <div class="skill-text-section">
+                        <p class="bold">After Effekts</p>
+                        <p class="light">Video & Anmiamtionen</p>
+                    </div>
+                </li>
+                <li class="skill-card">
+                    <img src="images/skills/linear.png" alt="Linear">
+                    <div class="skill-text-section">
+                        <p class="bold">Linear</p>
+                        <p class="light">Projektmanagement</p>
+                    </div>
+                </li>
+                <li class="skill-card">
+                    <img src="images/skills/maze.png" alt="maze">
+                    <div class="skill-text-section">
+                        <p class="bold">Maze</p>
+                        <p class="light">User Testing</p>
+                    </div>
+                </li>
+            </main>
+        </section>
 
-    <footer class="footer">
-        <p class="small-light">© 2024 Katrin Hahn, Inc. All rights reserved.</p>
-    </footer>
-</main>
+        <section class="projekte">
+            <header class="section-titel">
+                <p class="caption">Portfolio</p>
+                <H3>Persönliche Projekte</H3>
+            </header>
+            <main class="projekte-all-cards">
+                <div class="projekte-card">
+                    <div class="projekte-image">
+                        <img src="images/projekte-image-1.png" alt="projekte-image-1">
+                    </div>
+                    <div class="projekte-card-text">
+                        <p class="bold">Big 5 Glamping</p>
+                        <p class="light">Responsive Webdesign für eine Lodge in Südafrika.</p>
+                        <div class="link-icon">
+                            <p class="small">mehr erfahren</p>
+                            <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
+                        </div>
+                    </div>
+                </div>
+                <div class="projekte-card">
+                    <div class="projekte-image">
+                        <img src="images/projekte-image-2.png" alt="projekte-image-2">
+                    </div>
+                    <div class="projekte-card-text">
+                        <p class="bold">Swipe</p>
+                        <p class="light">App Design für Marketing Argeturen um Onboarding-Prozesse effizenter zu
+                            gestalten.
+                        </p>
+                        <div class="link-icon">
+                            <p class="small">mehr erfahren</p>
+                            <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
+                        </div>
+                    </div>
+                </div>
+                <div class="projekte-card">
+                    <div class="projekte-image">
+                        <img src="images/projekte-image-3.png" alt="projekte-image-3">
+                    </div>
+                    <div class="projekte-card-text">
+                        <p class="bold">TripShare</p>
+                        <p class="light">App Design für Personen auf Reisen, die Ihre Erlebnisse gerne mit Ihren
+                            Liebsten
+                            teilen möchten.</p>
+                        <div class="link-icon">
+                            <p class="small">mehr erfahren</p>
+                            <img src="images/ArrowRightShort.png" alt="ArrowRightShort">
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+
+        <section class="kunden">
+            <header class="section-titel">
+                <p class="caption">Referenzen</p>
+                <H3>Bisherige Kunden</H3>
+            </header>
+            <main class="kunden-logo-section">
+                <li class="logo-item">
+                    <img src="images/kunden/fettebeute.png" alt="fettebeute">
+                </li>
+                <li class="logo-item">
+                    <img src="images/kunden/lenne.tech.png" alt="lenne.tech">
+                </li>
+                <li class="logo-item">
+                    <img src="images/kunden/nerdforce.png" alt="nerdforce">
+                </li>
+                <li class="logo-item">
+                    <img src="images/kunden/stazzel.png" alt="stazzel">
+                </li>
+                <li class="logo-item">
+                    <img src="images/kunden/vyn.png" alt="vyn">
+                </li>
+            </main>
+        </section>
+        <section class="kontakt">
+            <header class="section-titel">
+                <p class="caption">Kontakt</p>
+                <H3>Schreib mir gerne eine Nachricht oder ruf mich an</H3>
+            </header>
+            <main class="kontakt-items-section-index">
+                <div class="kontakt-items">
+                    <img src="images/icon/phone.png" alt="phone">
+                    <p>0151 12345 667</p>
+                </div>
+                <div class="kontakt-items">
+                    <img src="images/icon/envelope.png" alt="envelope">
+                    <p>katrin.hahn@mail.de</p>
+                </div>
+                <div class="kontakt-items">
+                    <img src="images/icon/pinangle.png" alt="pinangle">
+                    <p>57399 Kirchhundem</p>
+                </div>
+            </main>
+        </section>
+
+        <footer class="footer">
+            <p class="small-light">© 2024 Katrin Hahn, Inc. All rights reserved.</p>
+        </footer>
+    </main>
 </body>
 
 </html>
