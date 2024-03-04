@@ -582,7 +582,7 @@ nav {
     color: #413EFF;
 }
 
-.item-aktiv {
+.navigation-items a.active {
     color: #413EFF;
 }
 
@@ -708,7 +708,6 @@ nav {
 }
 
 .hero p{
-    margin-top: 80px;
     width: 50%;
 }
 
@@ -762,7 +761,7 @@ nav {
     }
 
     .hero p{
-        margin-top: 80px;
+        margin-top: 24px;
         width: 100%;
     }
     
@@ -886,6 +885,7 @@ nav {
     flex-wrap: wrap;
     margin-top: 24px;
     justify-content: space-evenly;
+    gap: 48px;
 }
 
 .logo-item img {
@@ -977,50 +977,34 @@ nav {
 @media only screen and (max-width: 1600px) {
     .leistungen-cardl {
         max-width: 350px;
-        min-width: 250px;
-        padding-right: 24px;
-        padding-bottom: 24px;
-        padding-left: 0;
     }
 }
 
 @media only screen and (max-width: 1200px) {
     .leistungen-card {
-        max-width: 350px;
-        min-width: 250px;
-        padding-right: 24px;
-        padding-bottom: 24px;
-        padding-left: 0;
-    }
+        max-width: 340px;
+}
 }
 
 @media only screen and (max-width: 992px) {
     .leistungen-card {
-        max-width: auto;
-        min-width: 250px;
-        padding-right: 4px;
-        padding-bottom: 4px;
-        padding-left: 0;
-    }
+        max-width: 280px;
+}
 }
 
 @media only screen and (max-width: 768px) {
     .leistungen-card {
-        max-width: auto;
-        min-width: 250px;
-        padding-right: 4px;
-        padding-bottom: 4px;
-        padding-left: 0;
+        max-width: 200px;
+
     }
 }
 
 @media only screen and (max-width: 576px) {
     .leistungen-card {
-        max-width: auto;
-        min-width: 250px;
-        padding-right: 4px;
-        padding-bottom: 4px;
-        padding-left: 0;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        
     }
 }
 
@@ -1094,6 +1078,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 48px;
 }
 
 .projekte-card {
