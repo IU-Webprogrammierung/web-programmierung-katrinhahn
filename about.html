@@ -5,38 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Über mich</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="javascript.js"></script>
 </head>
 
 <body>
-    <nav class="navbar">
-        <main class="navigation-content">
-            <div class="menu-icon" onclick="toggleMenu()">
-                <span class="hamburger hamburger-1"></span>
-                <span class="hamburger hamburger-2"></span>
-                <span class="hamburger hamburger-3"></span>
+    <header class="navigation-header">
+        <nav>
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="images/logo-navbar.png" alt="logo-navbar">
+                </a>
             </div>
-            <a href="index.html">
-                <div class="logo"><img src="images/logo-navbar.png" alt="logo-navbar"></div>
-            </a>
-            <div class="menu" id="menu">
-                <a href="about.html" class="item">About</a>
-                <a href="projekte.html" class="item">Projekte </a>
-                <a href="kontakt.html" class="item">Kontakt</a>
+            <div class="navigation-items" id="navigation-items">
+                <a class="item-aktiv" href="about.html">About</a>
+                <a href="projekte.html">Projekte </a>
+                <a href="kontakt.html">Kontakt</a>
             </div>
-        </main>
-    </nav>
+            <div class="hamburger">
+                <span id="openHam">&#9776;</span>
+                <span id="closeHam">&#x2716;</span>
+            </div>
+        </nav>
+    </header>
 
 
     <header class="hero">
         <main class="hero-text">
-            <h1>Über mich</h1>
-            <p class="large">Ich bin Katrin, 25 Jahre alt und studiere im 6 Semester UX Design.</p>
-            <button class="button">Kontakt aufnehmen</button>
+            <div class="hero-headline-image">
+                <div class="hero-headline">
+                    <h1>Über mich</h1>
+                    <p class="large">Ich bin Katrin, 25 Jahre alt und studiere im 6 Semester UX Design.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero.png" alt="hero-image">
+                </div>
+            </div>
+            
+            <button class="button">Kontakt</button>
         </main>
-        <div class="hero-image">
-            <img src="images/hero.png" alt="hero-image">
-        </div>
     </header>
 
     <section class="werdegang">
