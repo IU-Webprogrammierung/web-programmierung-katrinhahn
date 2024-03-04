@@ -545,77 +545,76 @@ body {
 }
 
 
-
-
-.navbar {
-    position: sticky;
-    top: 0;
+.navigation-header {
+    background-color: rgb(0, 0, 0);
+    padding: 0 15px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav {
     width: 100%;
-    z-index: 100;
-}
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.menu-icon {
-    cursor: pointer;
-    float: right;
-    padding: 15px;
-    display: none;
-}
-
-.hamburger {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-}
-
-.logo img {
+  .logo-container img {
     height: 30px;
-}
+  }
 
-.navigation-content {
-    background-color: black;
-    width: 100%;
-    margin-top: 24px;
+  .navigation-items {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    gap: 40px;
+  }
 
-.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-}
+  .navigation-items > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: .4s ease-in-out;
+  }
 
-.menu a {
-    color: #fff;
-    display: block;
-    padding: 18px;
-    margin-right: 32px;
-    border-radius: 24px;
-}
+  .navigation-items > a:hover {
+    color: rgb(65, 52, 255);
+  }
 
-.menu a:hover {
-    background-color: #413EFF;
-    padding: 18px;
-    margin-right: 32px;
-    border-radius: 24px;
-}
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+  }
 
-.menu a:active {
-    color: #413EFF;
-    display: block;
-    padding: 18px;
-    margin-right: 32px;
-    border-radius: 24px;
-}
+  @media screen and (max-width:992px) {
+    .hamburger {
+      display: flex;
+      cursor: pointer;
+    }
+    .hamburger #closeHam {
+      display: none;
+    }
+    .navigation-items {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;  
+        right: 0;   
+        top: 58px;     
+        background-color: rgb(255, 255, 255);     
+        width: 100%;   
+        height: calc(100vh - 58px);   
+        padding-top: 60px;   
+        gap: 10vh;   
+        transition: display 0.4s ease-in-out;
+    }
+  }
 
-.nav {
-    max-height: 0;
-    transition: max-height .5s ease-out;
-}
-
+  
 
 .button {
     background-color: #413EFF;
