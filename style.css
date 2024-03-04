@@ -1109,10 +1109,12 @@ ul {
     height: auto;
     object-fit: cover;
     transition: transform 1s;
+    overflow: hidden;
 }
 
 .projekte-image :hover {
     transform: scale(1.03);
+    overflow: hidden;
 }
 
 .kontakt {
