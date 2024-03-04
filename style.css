@@ -1336,3 +1336,48 @@ input {
 .logo-galerie img:hover {
     transform: scale(1.0);
 }
+
+.hero-leistungen {
+    height: 00px;
+    display: grid;
+    align-content: center;
+}
+
+.hero-leistungen p {
+    color: #fff;
+}
+
+.all-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 32px;
+    margin: 0;
+    gap: 16px;
+}
+ .card {
+    display: grid;
+    gap: 4px;
+    padding: 32px;
+    max-width: 220px;
+    height: auto;
+    background: #02011f;
+    border-radius: 24px;
+ }
+
+ .card p.large {
+    color: #413EFF;
+ }
+
+
+.hero-beschreibung p {
+    width: 100%;
+}
+
+.card-text-section {
+    display: grid;
+    gap: 12px;
+    padding-bottom: 24px;
+    width: auto;
+}
