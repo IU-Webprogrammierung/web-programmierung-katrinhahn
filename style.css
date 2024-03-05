@@ -709,7 +709,7 @@ nav {
     margin-top: 150px;
 }
 
-.hero p{
+.hero p {
     width: 50%;
 }
 
@@ -762,44 +762,44 @@ nav {
         margin-top: 150px;
     }
 
-    .hero p{
+    .hero p {
         margin-top: 24px;
         width: 100%;
     }
-    
+
     .hero-text {
         display: grid;
         color: white;
         width: 100%;
     }
-    
+
     .hero-headline-image {
         display: grid;
         justify-content: space-between;
         align-items: center;
         width: 100%;
     }
-    
+
     .hero-headline-index {
         display: grid;
         width: 100%;
     }
-    
+
     .hero-image {
         max-width: 40%;
     }
-    
+
     .hero-image img {
         width: 100%;
         height: auto;
         max-width: 500px;
         min-width: 250px;
     }
-    
+
     .hero-headline {
         display: grid;
     }
-    
+
     .statement {
         display: flex;
         flex-direction: column;
@@ -985,13 +985,13 @@ nav {
 @media only screen and (max-width: 1200px) {
     .leistungen-card {
         max-width: 340px;
-}
+    }
 }
 
 @media only screen and (max-width: 992px) {
     .leistungen-card {
         max-width: 280px;
-}
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1006,7 +1006,7 @@ nav {
         max-width: 100%;
         margin: 0;
         padding: 0;
-        
+
     }
 }
 
@@ -1349,7 +1349,7 @@ input {
     color: #fff;
 }
 
-.all-card{
+.all-card {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -1358,7 +1358,8 @@ input {
     margin: 0;
     gap: 16px;
 }
- .card {
+
+.card {
     display: grid;
     gap: 4px;
     padding: 32px;
@@ -1366,11 +1367,11 @@ input {
     height: auto;
     background: #02011f;
     border-radius: 24px;
- }
+}
 
- .card p.large {
+.card p.large {
     color: #413EFF;
- }
+}
 
 
 .hero-beschreibung p {
@@ -1394,4 +1395,68 @@ input {
     width: 45px;
     cursor: pointer;
     background-color: #413EFF;
+}
+
+
+.tab {
+    position: sticky;
+    top: 80px;
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    transition-duration: .3s;
+    transition-property: max-width, margin;
+    z-index: 1;
+    margin-bottom: 48px;
+    background-color: black;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    height: 88px;
+    gap: 8px;
+    border-radius: 40px;
+    background-color: rgb(11, 9, 59);
+    opacity: 1;
+}
+
+.tab-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background-color: rgb(11, 9, 59);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.tab-item :hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background-color: #413EFF;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#tab-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background-color: #413EFF;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
 }
