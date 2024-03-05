@@ -1145,7 +1145,6 @@ ul {
 .kontakt-items {
     display: flex;
     align-items: center;
-    padding: 24px;
 }
 
 .kontakt-items img {
@@ -1403,11 +1402,10 @@ input {
     top: 80px;
     width: 100%;
     height: 120px;
-    margin: 0 auto;
     transition-duration: .3s;
     transition-property: max-width, margin;
     z-index: 1;
-    margin-bottom: 48px;
+    margin-bottom: 80px;
     background-color: black;
 }
 
