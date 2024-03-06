@@ -532,12 +532,12 @@ a {
 
 body {
     min-height: 100vh;
-    background-color: rgb(0, 0, 0);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-left: 10%;
     padding-right: 10%;
     max-width: 1440px;
     margin: auto;
+    background-color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -556,12 +556,13 @@ body {
 }
 
 nav {
-    width: 100%;
-    max-width: 1400px;
-    padding: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .logo-container img {
@@ -574,10 +575,10 @@ nav {
 }
 
 .navigation-items a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+    color: #fff;
     font-weight: 500;
     font-size: 16px;
+    text-decoration: none;
     transition: .4s ease-in-out;
 }
 
@@ -593,7 +594,7 @@ nav {
     display: none;
     font-size: 24px;
     font-weight: 500;
-    color: white;
+    color: #fff;
 }
 
 @media screen and (max-width:992px) {
@@ -625,57 +626,57 @@ nav {
 
 
 .button {
+    width: 250px;
+    padding: 14px 24px;
+    margin-top: 24px;
     background-color: #413EFF;
     color: #fff;
     font-size: 1rem;
+    font-weight: 500;
     border-radius: 16px;
     border-style: none;
     text-align: center;
-    padding: 14px 24px;
-    font-weight: 500;
-    width: 250px;
-    margin-top: 24px;
 }
 
 @media only screen and (max-width: 1200px) {
     .button {
+        width: 220px;
+        padding: 14px 24px;
+        margin-top: 24px;
         background-color: #413EFF;
         color: #fff;
+        font-weight: 500;
         border-radius: 16px;
         border-style: none;
         text-align: center;
-        padding: 14px 24px;
-        font-weight: 500;
-        width: 220px;
-        margin-top: 24px;
     }
 }
 
 @media only screen and (max-width: 992px) {
     .button {
+        width: 200px;
+        padding: 12px 22px;
+        margin-top: 24px;
         background-color: #413EFF;
         color: #fff;
+        font-weight: 500;
         border-radius: 16px;
         border-style: none;
         text-align: center;
-        padding: 12px 22px;
-        font-weight: 500;
-        width: 200px;
-        margin-top: 24px;
     }
 }
 
 @media only screen and (max-width: 576px) {
     .button {
+        width: 180px;
+        padding: 10px 20px;
+        margin-top: 24px;
         background-color: #413EFF;
         color: #fff;
+        font-weight: 500;
         border-radius: 16px;
         border-style: none;
         text-align: center;
-        padding: 10px 20px;
-        font-weight: 500;
-        width: 180px;
-        margin-top: 24px;
     }
 }
 
@@ -684,20 +685,20 @@ nav {
     border-color: #2f2cd8;
 }
 
-.button-senden {
+.button-send {
+    width: 250px;
+    padding: 14px 24px;
+    margin-top: 64px;
     background-color: #413EFF;
     color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
     border-radius: 16px;
     border-style: none;
     text-align: center;
-    padding: 14px 24px;
-    font-weight: 500;
-    font-size: 18px;
-    width: 250px;
-    margin-top: 64px;
 }
 
-.button-senden:hover {
+.button-send:hover {
     background-color: #2f2cd8;
     border-color: #2f2cd8;
 }
@@ -764,8 +765,8 @@ nav {
     }
 
     .hero p {
-        margin-top: 24px;
         width: 100%;
+        margin-top: 24px;
     }
 
     .hero-text {
@@ -808,10 +809,6 @@ nav {
         gap: 16px;
     }
 }
-
-
-
-
 
 .stat {
     display: flex;
@@ -886,8 +883,8 @@ nav {
 .kunden-logo-section {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 24px;
     justify-content: space-evenly;
+    margin-top: 24px;
     gap: 48px;
 }
 
@@ -895,28 +892,28 @@ nav {
     max-width: 140px;
 }
 
-.leistungen-index {
+.services-index {
     display: grid;
     margin-top: 150px;
     margin-bottom: 150px;
 
 }
 
-.leistungen-über-mich {
+.services-about {
     margin-top: 100px;
 }
 
 .section-titel {
-    max-width: 55%;
     display: grid;
+    margin-top: 24px;
     gap: 12px;
     margin-bottom: 48px;
 }
 
 @media only screen and (max-width: 1600px) {
     .section-titel {
+        margin-top: 24px;
         max-width: 60%;
-        display: grid;
         gap: 12px;
         margin-bottom: 44px;
     }
@@ -924,8 +921,8 @@ nav {
 
 @media only screen and (max-width: 1200px) {
     .section-titel {
-        max-width: 70%;
         display: grid;
+        max-width: 70%;
         gap: 12px;
         margin-bottom: 40px;
     }
@@ -933,8 +930,8 @@ nav {
 
 @media only screen and (max-width: 992px) {
     .section-titel {
-        max-width: 80%;
         display: grid;
+        max-width: 80%;
         gap: 12px;
         margin-bottom: 36px;
         ;
@@ -943,8 +940,8 @@ nav {
 
 @media only screen and (max-width: 768px) {
     .section-titel {
-        max-width: 90%;
         display: grid;
+        max-width: 90%;
         gap: 12px;
         margin-bottom: 32px;
     }
@@ -952,15 +949,15 @@ nav {
 
 @media only screen and (max-width: 576px) {
     .section-titel {
-        max-width: 100%;
         display: grid;
+        max-width: 100%;
         gap: 12px;
         margin-bottom: 28px;
     }
 }
 
 
-.leistungen-all-cards {
+.services-all-cards {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -969,7 +966,7 @@ nav {
     margin: 0;
 }
 
-.leistungen-card {
+.services-card {
     max-width: 350px;
     min-width: 250px;
     padding-right: 24px;
@@ -978,32 +975,32 @@ nav {
 }
 
 @media only screen and (max-width: 1600px) {
-    .leistungen-cardl {
+    .services-cardl {
         max-width: 350px;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    .leistungen-card {
+    .services-card {
         max-width: 340px;
     }
 }
 
 @media only screen and (max-width: 992px) {
-    .leistungen-card {
+    .services-card {
         max-width: 280px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .leistungen-card {
+    .services-card {
         max-width: 200px;
 
     }
 }
 
 @media only screen and (max-width: 576px) {
-    .leistungen-card {
+    .services-card {
         max-width: 100%;
         margin: 0;
         padding: 0;
@@ -1011,7 +1008,7 @@ nav {
     }
 }
 
-.leistungen-card-text {
+.services-card-text {
     display: block;
     margin-top: 24px;
     margin-bottom: 48px;
@@ -1019,24 +1016,24 @@ nav {
     padding-right: 12px;
 }
 
-.leistungen-card-text p {
+.services-card-text p {
     margin: 0;
     margin-right: auto;
 }
 
-.leistungen-image {
+.services-image {
     height: auto;
     overflow: hidden;
     border-radius: 12px;
 }
 
-.leistungen-image img {
+.services-image img {
     object-fit: cover;
     transition: transform 1s;
     height: 100%;
 }
 
-.leistungen-image :hover {
+.services-image :hover {
     transform: scale(1.05);
 }
 
@@ -1058,10 +1055,10 @@ ul {
 
 .skill-card {
     display: flex;
+    align-items: center;
+    min-width: 280px;
     padding-right: 24px;
     padding-bottom: 48px;
-    min-width: 280px;
-    align-items: center;
     gap: 24px;
 }
 
@@ -1071,43 +1068,43 @@ ul {
     height: 50px;
 }
 
-.projekte {
+.projects {
     display: grid;
     margin-top: 150px;
     margin-bottom: 150px;
 }
 
-.projekte-all-cards {
+.projects-all-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 48px;
 }
 
-.projekte-card {
+.projects-card {
     max-width: 350px;
     min-width: 250px;
 }
 
-.projekte-card-text {
+.projects-card-text {
     display: grid;
     gap: 12px;
     margin-top: 24px;
 }
 
-.leistungen-card-text {
+.services-card-text {
     display: flex;
     justify-content: left;
 }
 
-.projekte-image {
+.projects-image {
     height: auto;
     overflow: hidden;
     border-radius: 12px;
     margin-bottom: 24px;
 }
 
-.projekte-image img {
+.projects-image img {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -1115,66 +1112,66 @@ ul {
     overflow: hidden;
 }
 
-.projekte-image :hover {
+.projects-image :hover {
     transform: scale(1.03);
     overflow: hidden;
 }
 
-.kontakt {
+.contact {
     display: grid;
     margin-top: 150px;
     margin-bottom: 150px;
 }
 
 
-.kontakt-text-section {
+.contact-text-section {
     display: flex;
     max-width: 55%;
 }
 
-.kontakt-items-section {
+.contact-items-section {
     display: block;
     justify-content: flex-end;
 }
 
-.kontakt-items-section-index {
+.contact-items-section-index {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.kontakt-items {
+.contact-items {
     display: flex;
     align-items: center;
 }
 
-.kontakt-items img {
+.contact-items img {
     width: 30px;
     height: 30px;
     margin-right: 24px;
 }
 
-.kontakt {
+.contact {
     margin-top: 150px;
     margin-bottom: 150px;
 }
 
-.kontakt-input-image {
+.contact-input-image {
     display: flex;
     justify-content: space-between;
     padding-top: 64px;
 }
 
-.kontakt-image {
+.contact-image {
     max-width: 25%;
 }
 
-.kontakt-image img {
+.contact-image img {
     width: 100%;
     height: auto;
 }
 
-.kontakt-input-section {
+.contact-input-section {
     display: flexbox;
 }
 
@@ -1198,66 +1195,66 @@ input {
     color: #fff;
 }
 
-.kontakt-input {
+.contact-input {
     align-content: center;
     padding-top: auto;
 }
 
 
-.werdegang-beschreibungstext {
+.career-description-text {
     width: 100%;
 }
 
-.werdegang-card-section {
-    margin-top: 48px;
+.career-card-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 48px;
     gap: 48px;
 }
 
-.werdegang-card {
+.career-card {
     display: block;
     min-width: 200px;
     max-width: 250px;
     padding-right: 48px;
 }
 
-.werdegang-card-text {
+.career-card-text {
     display: block;
     padding: 0;
     height: max-content;
 }
 
-.werdegang-card-text p.light {
+.career-card-text p.light {
     margin: 0;
     height: 48px;
 }
 
-.werdegang-card-text p {
+.career-card-text p {
     padding-bottom: 4px;
     margin: 0;
 }
 
-.werdegang-jahreszahl {
+.career-year {
     margin-top: 16px;
 }
 
 .footer {
     display: flex;
+    justify-content: center;
     margin-top: 48px;
     margin-bottom: 48px;
-    justify-content: center;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-.persönliche-projekte {
+.personal-projects {
     padding-top: 40px;
     padding-bottom: 120px;
 }
 
-.section-projekt-titel {
+.section-project-titel {
     display: block;
     padding-bottom: 48px;
     padding-top: 48px;
@@ -1265,29 +1262,29 @@ input {
     max-width: 55%;
 }
 
-.section-projekt-titel h4 {
+.section-project-titel h4 {
     margin: 8px;
 }
 
-.section-projekt-titel p {
+.section-project-titel p {
     margin: 8px;
 }
 
-.projekt-big-5-glamping {
+.project-big-5-glamping {
     display: flex;
 }
 
-.projekte-image-large {
+.projects-image-large {
     height: auto;
     overflow: hidden;
     border-radius: 12px;
 }
 
-.projekte-card-large {
+.projects-card-large {
     display: contents;
 }
 
-.projekte-image-large img {
+.projects-image-large img {
     width: 100%;
     height: auto;
     padding-top: 48px;
@@ -1295,20 +1292,20 @@ input {
     transition: transform 1s;
 }
 
-.projekte-image-large :hover {
+.projects-image-large :hover {
     transform: scale(1.02);
 }
 
-.projekt-tripshare-section {
+.project-tripshare-section {
     margin-top: 120px;
 }
 
-.projekte-image-large-plakat {
+.projects-image-large-poster {
     height: auto;
     overflow: hidden;
 }
 
-.projekte-image-large-plakat img {
+.projects-image-large-poster img {
     width: 100%;
     height: auto;
     padding-top: 48px;
@@ -1316,18 +1313,18 @@ input {
     transition: transform 1s;
 }
 
-.projekte-image-large-plakat :hover {
+.projects-image-large-poster :hover {
     transform: scale(1.02);
 }
 
-.logo-galerie {
+.logo-gallery {
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
 
-.logo-galerie img {
+.logo-gallery img {
     max-width: 300px;
     min-width: 150px;
     margin-bottom: 24px;
@@ -1335,17 +1332,17 @@ input {
     transition: transform 1s;
 }
 
-.logo-galerie img:hover {
+.logo-gallery img:hover {
     transform: scale(1.0);
 }
 
-.hero-leistungen {
-    height: 00px;
+.hero-services {
     display: grid;
     align-content: center;
+    height: 00px;
 }
 
-.hero-leistungen p {
+.hero-services p {
     color: #fff;
 }
 
@@ -1374,7 +1371,7 @@ input {
 }
 
 
-.hero-beschreibung p {
+.hero-description p {
     width: 100%;
 }
 
@@ -1424,13 +1421,13 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
     width: 100%;
     height: 100%;
     border-radius: 40px;
     background-color: rgb(11, 9, 59);
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 
@@ -1438,24 +1435,24 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
     width: 100%;
     height: 100%;
     border-radius: 40px;
     background-color: #413EFF;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 #tab-active {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
     width: 100%;
     height: 100%;
     border-radius: 40px;
     background-color: #413EFF;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
 }
