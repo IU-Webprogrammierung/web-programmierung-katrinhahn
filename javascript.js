@@ -1,4 +1,4 @@
-document.addEventListener("scroll", (event) => {
+document.addEventListener('scroll', (event) => {
   if (window.scrollY > 300) {
     document.getElementById('scroll-to-top-btn').style.display = 'block';
   } else {
@@ -10,6 +10,6 @@ const hamburgerEvent = (navigation, open, close) => {
   document.getElementById('openHam').style.display = open;
   document.getElementById('closeHam').style.display = close;
 };
-document.getElementById("openHam").addEventListener('click', () => hamburgerEvent("flex", "none", "block"));
+document.getElementById('openHam').addEventListener('click', () => hamburgerEvent("flex", "none", "block"));
 document.getElementById('closeHam').addEventListener('click', () => hamburgerEvent("none", "block", "none"));
 document.getElementById('scroll-to-top-btn').addEventListener('click', () => window.scrollTo({top: 0, behavior: "smooth"}));
