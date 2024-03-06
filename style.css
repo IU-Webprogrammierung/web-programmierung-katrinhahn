@@ -1248,6 +1248,12 @@ ul {
     margin-top: 24px;
 }
 
+.link-icon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
 
 .services-card-text {
     display: flex;
@@ -1301,6 +1307,7 @@ ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 24px;
 }
 
 
