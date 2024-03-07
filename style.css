@@ -254,48 +254,6 @@ p.large-bold {
 }
 
 
-p.button {
-    font-size: 1.08rem;
-    font-weight: 500;
-    color: #fff;
-}
-
-
-@media only screen and (max-width: 1600px) {
-    p.button {
-        font-size: 1.06rem;
-    }
-}
-
-
-@media only screen and (max-width: 1200px) {
-    p {
-        font-size: 1.04rem;
-    }
-}
-
-
-@media only screen and (max-width: 992px) {
-    p.button {
-        font-size: 1.02rem;
-    }
-}
-
-
-@media only screen and (max-width: 768px) {
-    p.button {
-        font-size: 1.0rem;
-    }
-}
-
-
-@media only screen and (max-width: 576px) {
-    p.button {
-        font-size: 0.98rem;
-    }
-}
-
-
 p {
     font-size: 1.08rem;
     line-height: 150%;
@@ -1044,6 +1002,7 @@ nav {
 
 @media only screen and (max-width: 1600px) {
     .section-titel {
+        display: grid;
         margin-top: 24px;
         max-width: 60%;
         gap: 12px;
@@ -1055,6 +1014,7 @@ nav {
 @media only screen and (max-width: 1200px) {
     .section-titel {
         display: grid;
+        margin-top: 24px;
         max-width: 70%;
         gap: 12px;
         margin-bottom: 40px;
@@ -1065,6 +1025,7 @@ nav {
 @media only screen and (max-width: 992px) {
     .section-titel {
         display: grid;
+        margin-top: 24px;
         max-width: 80%;
         gap: 12px;
         margin-bottom: 36px;
@@ -1076,6 +1037,7 @@ nav {
 @media only screen and (max-width: 768px) {
     .section-titel {
         display: grid;
+        margin-top: 24px;
         max-width: 90%;
         gap: 12px;
         margin-bottom: 32px;
@@ -1098,6 +1060,7 @@ nav {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    gap: 24px;
     padding-top: 32px;
     margin: 0;
 }
@@ -1106,8 +1069,6 @@ nav {
 .services-card {
     max-width: 350px;
     min-width: 250px;
-    padding-right: 24px;
-    padding-bottom: 24px;
     padding-left: 0;
 }
 
@@ -1152,7 +1113,8 @@ nav {
 
 
 .services-card-text {
-    display: block;
+    display: flex;
+    justify-content: left;
     margin-top: 24px;
     margin-bottom: 48px;
     padding-left: 12px;
@@ -1252,12 +1214,8 @@ ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    width: 100%;
-}
-
-.services-card-text {
-    display: flex;
-    justify-content: left;
+    width: 36px;
+    height: 36px;
 }
 
 
@@ -1321,12 +1279,6 @@ ul {
     width: 30px;
     height: 30px;
     margin-right: 24px;
-}
-
-
-.contact {
-    margin-top: 150px;
-    margin-bottom: 150px;
 }
 
 
