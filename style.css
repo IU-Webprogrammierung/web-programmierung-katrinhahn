@@ -1592,7 +1592,6 @@ input {
     position: sticky;
     top: 80px;
     width: 100%;
-    height: 120px;
     transition-duration: .3s;
     transition-property: max-width, margin;
     z-index: 1;
@@ -1600,16 +1599,51 @@ input {
     background-color: black;
 }
 
-
 .tab-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+    overflow-x: scroll;
     height: 88px;
-    gap: 8px;
     border-radius: 40px;
     background-color: rgb(11, 9, 59);
     opacity: 1;
 }
+
+@media only screen and (max-width: 1600px) {
+    .tab-container {
+        height: 84px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .tab-container {
+        height: 80px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .tab-container {
+        height: 76px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .tab-container {
+        height: 72px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .tab-container {
+        height: 68px;
+    }
+}
+
 
 
 .tab-item {
@@ -1619,10 +1653,45 @@ input {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    width: 100%;
-    height: 100%;
+    min-width: 200px;
+    height: auto;
     border-radius: 40px;
     background-color: rgb(11, 9, 59);
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .tab-item {
+        min-width: 190px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .tab-item {
+        min-width: 180px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .tab-item {
+        min-width: 170px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .tab-item {
+        min-width: 160px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .tab-item {
+        min-width: 150px;
+    }
 }
 
 
@@ -1633,12 +1702,46 @@ input {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    width: 100%;
-    height: 100%;
+    min-width: 200px;
+    height: 88px;
     border-radius: 40px;
     background-color: #413EFF;
 }
 
+
+@media only screen and (max-width: 1600px) {
+    .tab-item :hover {
+        min-width: 190px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .tab-item :hover {
+        min-width: 180px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .tab-item :hover {
+        min-width: 170px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .tab-item :hover {
+        min-width: 160px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .tab-item :hover {
+        min-width: 150px;
+    }
+}
 
 #tab-active {
     display: flex;
@@ -1647,8 +1750,42 @@ input {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    width: 100%;
-    height: 100%;
+    min-width: 200px;
     border-radius: 40px;
     background-color: #413EFF;
+}
+
+
+@media only screen and (max-width: 1600px) {
+    #tab-active {
+        min-width: 190px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #tab-active {
+        min-width: 180px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    #tab-active {
+        min-width: 170px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    #tab-active {
+        min-width: 160px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    #tab-active {
+        min-width: 150px;
+    }
 }
