@@ -688,7 +688,7 @@ nav {
     .button {
         width: 220px;
         padding: 14px 24px;
-        margin-top: 24px;
+        margin-top: 48px;
         background-color: #413EFF;
         color: #fff;
         font-weight: 500;
@@ -703,7 +703,7 @@ nav {
     .button {
         width: 200px;
         padding: 12px 22px;
-        margin-top: 24px;
+        margin-top: 48px;
         background-color: #413EFF;
         color: #fff;
         font-weight: 500;
@@ -718,7 +718,7 @@ nav {
     .button {
         width: 180px;
         padding: 10px 20px;
-        margin-top: 24px;
+        margin-top: 48px;
         background-color: #413EFF;
         color: #fff;
         font-weight: 500;
@@ -1429,7 +1429,27 @@ input {
     padding-bottom: 48px;
     padding-top: 48px;
     height: max-content;
-    max-width: 55%;
+    max-width: 80%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .section-project-titel {
+        max-width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .section-project-titel {
+        max-width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .section-project-titel {
+        max-width: 100%;
+    }
 }
 
 
@@ -1640,7 +1660,7 @@ input {
 
 @media only screen and (max-width: 576px) {
     .tab-container {
-        height: 68px;
+        height: 6px;
     }
 }
 
