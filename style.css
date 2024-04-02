@@ -1100,8 +1100,9 @@ nav {
 
 @media only screen and (max-width: 768px) {
     .services-card {
-        max-width: 200px;
-
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
     }
 }
 
