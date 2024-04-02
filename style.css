@@ -793,9 +793,7 @@ nav {
 }
 
 
-.hero-image {
-    max-width: 40%;
-}
+
 
 
 .hero-image img {
@@ -857,7 +855,9 @@ nav {
 
 
     .hero-image {
-        max-width: 40%;
+        width: 100%;
+        display: grid;
+        justify-items: center;
     }
 
 
