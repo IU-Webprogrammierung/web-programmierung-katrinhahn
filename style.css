@@ -835,6 +835,7 @@ nav {
 
     .hero-text {
         display: grid;
+        justify-items: center;
         color: white;
         width: 100%;
     }
