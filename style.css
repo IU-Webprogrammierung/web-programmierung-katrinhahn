@@ -564,7 +564,7 @@ a {
     color: #fff;
     text-decoration: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -1220,7 +1220,7 @@ ul {
 
 .link-icon{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: nowrap;
     width: auto;
 }
