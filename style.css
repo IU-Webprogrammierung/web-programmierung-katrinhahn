@@ -564,8 +564,6 @@ a {
     color: #fff;
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
 }
 
 
@@ -1228,6 +1226,19 @@ ul {
     width: auto;
 }
 
+
+.link-icon-portfolio{
+    display: flex;
+    justify-content: left;
+    margin-top: 24px;
+    margin-bottom: 48px;
+  }
+
+  #link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 
 .projects-image {
     height: auto;
